@@ -1,0 +1,106 @@
+node
+npx - executar um pacote intalado
+npm - gerenciador de pacotes
+
+terminal na pasta -> npm init -y
+        init para criar o arquivo principal do projeto
+        -y para definir tudo como padrão
+
+no code -> npm install express
+    micro framework para trabelhar com rotas
+
+Algumas bibliotecas precisam instalar um biblioteca de tipagem
+no code -> npm install @types/express -D
+    -D para utilizar apenas no ambiente de desenvolvimento
+
+no code -> npm install ts-node -D
+    ts-node para que o node entenda o typescript 
+
+no code -> npx ts-node aquiAPasta
+    executar o pacote
+
+no code -> npm install typescript -D
+    instalar o typescript
+
+no code -> npx tsc --init
+    criar aquivo de config para o typescript
+
+no code -> npx ts-node aquiAPasta
+    para executar a aplicação
+
+no code -> npm install ts-node-dev -D
+    para atualizar a aplicação automaticamente
+
+no code -> npx ts-node-dev aquiAPasta
+    para executar a aplicação
+
+terminal na pasta -> npx create-react-app nomeDoProjeto --template=typescript
+    create-react-app criar o ambiente de desenvolvimento react
+    --template=typescript para criar o ambiente em typescript
+    
+no code -> npm start
+    para iniciar a aplicação react
+
+no code -> npm install sqlite3
+    para instalar o banco SQLITE
+
+no code -> npm install knex
+    para instalar query builder KNEX
+
+no code -> npm install cors
+    para identificar e quais URLS tem acesso a nossa api 
+
+no code -> npm install react-icons	
+	para poder utilizar todos as bibliotecas de icones mais famosas
+	
+no code -> npm install react-router-dom
+	gerenciador de rotas do React
+	
+no code -> npm install leaflet react-leaflet
+	integração do mapa no projeto
+
+no code -> npm install axios
+	gerenciador de API
+
+no cmd(pasta global) -> npm install -g expo-cli
+	gerenciador de pacotes para desenvolvimento mobile
+	
+no cmd(pasta global) -> expo init mobile
+	criar o ambiente react native na pasta mobile 
+	
+no cmd -> expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+	adicionar fontes utilizando o expo
+	
+no code -> npm install @react-navigation/native
+	Navegação para app mobile
+	
+no code -> npm install @react-navigation/stack
+	
+no code -> expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+	pacotes interesantes do react-navigation
+
+no cmd -> expo install react-native-maps
+	pacote para trabalhar com mapas
+	
+no cmd -> expo install expo-constants
+
+no cmd -> expo install react-native-svg
+	componente para trabalhar com imagens SVG
+
+// Rota: Endereço completo da requisição
+// Recurso: Qual entidade estamos acessando do sistema
+
+// GET: Buscar uma ou mais informações do back-end
+// PUT: Criar uma nova informação no back-end
+// PUT: Atualizar uma informação existente no back-end
+// DELETE: Remover uma informação do back-end
+
+// Request Parms: Parametros que vem na própria rota que identifica um Recurso
+// Query Parms: Parametros que vem na propria rota geralmente opcionais
+// Request Body: Parametros para criação e atualização de informações
+
+--Banco de dados
+Banco SQLITE - pela facilidade na instalação não tendo necessidade de intalar nada em maquina, cria e armazena os dados em um arquivo
+KNEX - String builder, utilizamos ele para dar flexibilidade no nosso projeto, não ficando preso a um tipo de banco especifico
+
+JSX: Sintaxe de XML dentro do JavaScript
